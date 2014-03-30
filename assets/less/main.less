@@ -1,0 +1,115 @@
+.site-head {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+    padding: 10% 0;
+    text-align: center;
+    color: @white;
+    background: #303538 no-repeat center center;
+    .background-size(cover);
+    background-image: url(/assets/walter_992_2x.jpg)
+}
+
+.blog-title, .blog-description  {
+    text-shadow: @black 1px 1px 3px;
+}
+.blog-title {
+    margin: 10px 0 10px 0;
+    font-size: 4rem;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-family: @secondaryfont;
+    
+    & a:hover { 
+    text-decoration: none;
+    }
+}
+
+.blog-description {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    font-weight: 300;
+    font-family: @basefont;
+}
+
+// Every post, on every page, gets this style on its <article> tag
+.post {
+    position: relative;
+    width:80%;
+    max-width: 700px;
+    margin: 4rem auto;
+    padding-bottom: 4rem;
+    border-bottom: #EBF2F6 1px solid;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+.post-title {
+    //font-size: 4rem;
+    margin:0;
+    a {
+        text-decoration: none;
+    }
+}
+
+.post-meta {
+    display: inline-block;
+    margin: 0 0 5px 0;
+    font-family: @secondaryfont;
+    font-size: 1.5rem;
+    color: #9EABB3;
+    a {
+        color: #9EABB3;
+        text-decoration: none;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.user-meta {
+    position: relative;
+    padding: 0.3rem 40px 0 100px;
+    min-height: 77px;
+}
+
+.user-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.user-name {
+    display: block;
+    font-weight: bold;
+}
+
+.user-bio {
+    display: block;
+    max-width: 440px;
+    font-size: 1.4rem;
+    line-height: 1.5em;
+}
+
+.publish-meta {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4.3rem 0 4rem 0;
+    text-align: right;
+}
+
+.publish-heading {
+    display: block;
+    font-weight: bold;
+}
+
+.publish-date {
+    display: block;
+    font-size: 1.4rem;
+    line-height: 1.5em;
+}

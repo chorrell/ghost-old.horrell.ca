@@ -1,0 +1,18 @@
+{
+  "name": "ghost.horrell.ca",
+  "description": "The Ghost theme for Horrell.ca",
+  "version": "0.1.0",
+  "author": "Christopher Horrell <christopher@horrell.ca>",
+  "keywords": [
+    "ghost",
+    "theme",
+    "horrell"
+  ],
+  "devDependencies": {
+    "less": "~1.7.0"
+  },
+  "scripts": {
+    "prepublish": "node_modules/.bin/lessc assets/less/screen.less assets/css/screen.css"
+  },
+  "license": "MIT"
+}
