@@ -8,6 +8,10 @@
     "theme",
     "horrell"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chorrell/ghost.horrell.ca.git"
+  },
   "devDependencies": {
     "less": "~1.7.0"
   },
