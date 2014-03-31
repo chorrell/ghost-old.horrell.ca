@@ -8,12 +8,11 @@
     }
 }
 
-// The author credit area after the post
 .post-footer {
     position: relative;
     margin: 4rem 0;
     padding: 4rem 0;
-    border-top: #EBF2F6 1px solid;
+    border-top: @lightergrey 1px solid;
     h1 {
         .font-size(12);
         letter-spacing: 0;
@@ -23,20 +22,7 @@
         margin: 1rem 0;
         .font-size();
     }
-    // Create some space to the right for the share links
-    .author {
-        margin-right: 220px;
-    }
-    // Drop the share links in the space to the right.
-    // Doing it like this means it's easier for the author bio
-    // to be flexible at smaller screen sizes while the share
-    // links remain at a fixed width the whole time
     .share {
-        position: absolute;
-        top: 4rem;
-        right: -1rem;
-        width: 180px;
-        
         a {
             .font-size(14);
             display: inline-block;

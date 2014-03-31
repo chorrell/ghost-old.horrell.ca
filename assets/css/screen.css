@@ -611,7 +611,7 @@ table.plain tbody > tr:nth-child(odd) > th {
   position: relative;
   margin: 4rem 0;
   padding: 4rem 0;
-  border-top: #EBF2F6 1px solid;
+  border-top: #e6e6e6 1px solid;
 }
 .post-footer h1 {
   font-size: 12px;
@@ -623,15 +623,6 @@ table.plain tbody > tr:nth-child(odd) > th {
   margin: 1rem 0;
   font-size: 10px;
   font-size: 1rem;
-}
-.post-footer .author {
-  margin-right: 220px;
-}
-.post-footer .share {
-  position: absolute;
-  top: 4rem;
-  right: -1rem;
-  width: 180px;
 }
 .post-footer .share a {
   font-size: 14px;
@@ -657,13 +648,13 @@ table.plain tbody > tr:nth-child(odd) > th {
   width: 80%;
   max-width: 700px;
   margin: 4rem auto;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.3rem;
-  color: #9EABB3;
+  font-size: 11px;
+  font-size: 1.1rem;
+  color: #cccccc;
   text-align: center;
 }
 .pagination a {
-  color: #9EABB3;
+  color: #cccccc;
 }
 .older-posts,
 .newer-posts {
@@ -671,7 +662,7 @@ table.plain tbody > tr:nth-child(odd) > th {
   display: inline-block;
   padding: 0 15px;
   margin: 10px 0;
-  border: #EBF2F6 2px solid;
+  border: #cccccc 2px solid;
   text-decoration: none;
   border-radius: 30px;
   -webkit-transition: border 0.5s ease 0;
@@ -691,20 +682,17 @@ table.plain tbody > tr:nth-child(odd) > th {
   position: relative;
   margin: 8rem 0 0 0;
   padding: 4rem 0;
-  border-top: #EBF2F6 1px solid;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.3rem;
-  line-height: 1.7em;
-  color: #BBC7CC;
+  border-top: #e6e6e6 1px solid;
+  color: #cccccc;
   text-align: center;
-  background: #F7FAFB;
+  background: #f7f7f7;
 }
 .site-footer a {
-  color: #BBC7CC;
+  color: #cccccc;
   text-decoration: underline;
 }
 .site-footer a:hover {
-  color: #50585D;
+  color: #262626;
 }
 .poweredby .icon-ghost {
   font-weight: 700;
@@ -761,12 +749,13 @@ table.plain tbody > tr:nth-child(odd) > th {
   padding: 4px 8px 5px 8px;
   position: absolute;
   top: -23px;
-  left: -21px;
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 1.1rem;
+  left: -36px;
+  color: #ffffff;
+  font-size: 9px;
+  font-size: 0.9rem;
   line-height: 1em;
   text-align: center;
-  background: #50585D;
+  background: #808080;
   border-radius: 20px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   transition: opacity 0.3s ease, top 0.3s ease;
@@ -775,7 +764,7 @@ table.plain tbody > tr:nth-child(odd) > th {
   content: "";
   border-width: 5px 5px 0 5px;
   border-style: solid;
-  border-color: #50585D transparent;
+  border-color: #808080 transparent;
   display: block;
   position: absolute;
   bottom: -4px;
@@ -799,6 +788,15 @@ table.plain tbody > tr:nth-child(odd) > th {
   }
   .newer-posts {
     left: 0;
+  }
+  .post-footer .author {
+    margin-right: 220px;
+  }
+  .post-footer .share {
+    position: absolute;
+    top: 4rem;
+    right: -1rem;
+    width: 180px;
   }
 }
 @media only screen and (min-width: 45em) {
