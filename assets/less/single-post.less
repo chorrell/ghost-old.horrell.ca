@@ -15,18 +15,17 @@
     padding: 4rem 0;
     border-top: #EBF2F6 1px solid;
     h1 {
-        font-size: 1.8rem;
+        .font-size(12);
         letter-spacing: 0;
         margin: 0;
     }
     p {
         margin: 1rem 0;
-        font-size: 1.4rem;
-        line-height: 1.6em;
+        .font-size();
     }
     // Create some space to the right for the share links
     .author {
-        margin-right: 180px;
+        margin-right: 220px;
     }
     // Drop the share links in the space to the right.
     // Doing it like this means it's easier for the author bio
@@ -35,18 +34,18 @@
     .share {
         position: absolute;
         top: 4rem;
-        right: 0;
-        width: 140px;
+        right: -1rem;
+        width: 180px;
         
         a {
-            font-size: 1.8rem;
+            .font-size(14);
             display: inline-block;
-            margin: 1.4rem 1.6rem 1.6rem 0;
-            color: #BBC7CC;
+            margin: 1.4rem 1rem 1.6rem 0;
+            color: @grey;
             text-decoration: none;
             
             &:hover {
-                color: #50585D;
+                color: @basecolor;
             }
         }
     }

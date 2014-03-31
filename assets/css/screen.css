@@ -614,33 +614,35 @@ table.plain tbody > tr:nth-child(odd) > th {
   border-top: #EBF2F6 1px solid;
 }
 .post-footer h1 {
-  font-size: 1.8rem;
+  font-size: 12px;
+  font-size: 1.2rem;
   letter-spacing: 0;
   margin: 0;
 }
 .post-footer p {
   margin: 1rem 0;
-  font-size: 1.4rem;
-  line-height: 1.6em;
+  font-size: 10px;
+  font-size: 1rem;
 }
 .post-footer .author {
-  margin-right: 180px;
+  margin-right: 220px;
 }
 .post-footer .share {
   position: absolute;
   top: 4rem;
-  right: 0;
-  width: 140px;
+  right: -1rem;
+  width: 180px;
 }
 .post-footer .share a {
-  font-size: 1.8rem;
+  font-size: 14px;
+  font-size: 1.4rem;
   display: inline-block;
-  margin: 1.4rem 1.6rem 1.6rem 0;
-  color: #BBC7CC;
+  margin: 1.4rem 1rem 1.6rem 0;
+  color: #808080;
   text-decoration: none;
 }
 .post-footer .share a:hover {
-  color: #50585D;
+  color: #cf2829;
 }
 .gist table {
   margin: 0;
