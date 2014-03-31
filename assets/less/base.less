@@ -1,14 +1,30 @@
+// Viewport resizing
+@-webkit-viewport { width: device-width; zoom: 1.0; }
+@-moz-viewport    { width: device-width; zoom: 1.0; }
+@-ms-viewport     { width: device-width; zoom: 1.0; }
+@-o-viewport      { width: device-width; zoom: 1.0; }
+@viewport         { width: device-width; zoom: 1.0; }
+
+// Apply a natural box layout model to all elements
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
 html {
     height: 100%;
     max-height: 100%;
-    font-size: 62.5%;
+    font-size: 100%;
 }
 
 body {
     height: 100%;
     max-height: 100%;
     font-family: @basefont;
-    .font-size(16); // 16px/1.6rem
+    .font-size; // 10px/1rem
     line-height: @baselineheight;
     color: @lightblack;
 }
@@ -28,25 +44,25 @@ body {
 h1, h2, h3,
 h4, h5, h6 {
     text-rendering: optimizeLegibility;
-    line-height: 1;
     margin-top: 0;
+    line-height: 1.2;
     font-family: @secondaryfont;
 }
 
 h1 {
-    font-size: 3rem;
-    line-height: 1.2em;
+    .font-size(19);
 }
 
 h2 {
-    font-size: 2.5rem;
-    line-height: 1.2em;
+    .font-size(17);
 }
 
-h3 {
-    font-size: 2rem;
+h3,
+h4,
+h5,
+h6 {
+    .font-size(16);
 }
-
 
 // Links
 a { 
@@ -113,7 +129,6 @@ hr {
 }
 
 blockquote {
-    .box-sizing(border-box);
     margin: 1.6em 0 1.6em -2.2em;
     padding: 0 0 0 1.6em;
     border-left: #4a4a4a 0.4em solid;
@@ -156,7 +171,6 @@ code, tt {
 }
 
 pre {
-    .box-sizing(border-box);
     margin: 1.6em 0;
     border: 1px solid @lightergrey;
     width: 100%;
@@ -195,7 +209,6 @@ kbd {
 }
 
 table {
-    .box-sizing(border-box);
     margin: 1.6em 0;
     width:100%;
     max-width: 100%;

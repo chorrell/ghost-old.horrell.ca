@@ -1,6 +1,6 @@
 // Sets font-size to rem computed fom pixel size
 // Fallsback to pixels for browsers that don't support it.
-.font-size(@font-size: 16){
+.font-size(@font-size: 10){
 @rem: (@font-size / 10);
 font-size : @font-size * 1px;
 font-size : ~"@{rem}rem"; 

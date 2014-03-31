@@ -3,7 +3,6 @@
     display: table;
     width: 100%;
     height: auto;
-    margin-bottom: 5rem;
     padding: 10% 0;
     text-align: center;
     color: @white;
@@ -12,13 +11,15 @@
     background-image: url(/assets/walter_992_2x.jpg)
 }
 
-.blog-title, .blog-description  {
+.blog-title,
+.blog-description  {
     text-shadow: @black 1px 1px 3px;
 }
+
 .blog-title {
     margin: 10px 0 10px 0;
-    font-size: 4rem;
-    letter-spacing: -1px;
+    .font-size(28);
+    letter-spacing: 1px;
     font-weight: bold;
     font-family: @secondaryfont;
     
@@ -29,8 +30,8 @@
 
 .blog-description {
     margin: 0;
-    font-size: 1.5rem;
-    line-height: 1.5em;
+    color: @lightestgrey;
+    .font-size(12);
     font-weight: 300;
     font-family: @basefont;
 }
@@ -40,7 +41,7 @@
     position: relative;
     width:80%;
     max-width: 700px;
-    margin: 4rem auto;
+    margin: 2rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
@@ -48,8 +49,7 @@
 }
 
 .post-title {
-    //font-size: 4rem;
-    margin:0;
+    margin: 0;
     a {
         text-decoration: none;
     }
@@ -59,7 +59,7 @@
     display: inline-block;
     margin: 0 0 5px 0;
     font-family: @secondaryfont;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #9EABB3;
     a {
         color: #9EABB3;
