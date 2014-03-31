@@ -18,5 +18,6 @@
   "scripts": {
     "prepublish": "node_modules/.bin/lessc assets/less/screen.less assets/css/screen.css"
   },
+  "private": true,
   "license": "MIT"
 }
