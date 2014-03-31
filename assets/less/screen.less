@@ -80,10 +80,7 @@
 }
 
 @media only screen and (min-width: 30em) {
-    body {
-        .font-size(18); // 18px/1.8rem
-        line-height: @baselineheight;
-    }
+
     .older-posts,
     .newer-posts {
         position: absolute;
@@ -105,50 +102,59 @@
 }
 
 @media only screen and (min-width: 45em) {
+    body {
+        .font-size(12); // 18px/1.8rem
+    }
     h1 {
-        font-size: 3.5rem;
+        .font-size(22);
     }
 
     h2 {
-        font-size: 3rem;
+        .font-size(20);
     }
 
     h3 {
-        font-size: 2.5rem;
-    }
-    .site-head {
-        //padding: 9% 0;
-      //background-position: center 45%;
+        .font-size(18);
     }
     .blog-title {
-        font-size: 4.5rem;
+        .font-size(30);
     }
     .blog-description {
-        font-size: 2rem;
+        .font-size(14);
     }
 }
 
 @media only screen and (min-width: 60em) {
-    .blog-title {
-        font-size: 5rem;
-    }
-    .blog-description {
-        font-size: 2.5rem;
-    }
+
 }
 
 @media only screen and (min-width: 65em) {
-    h1 {
-        font-size: 4rem;
-    }
+  h1 {
+      .font-size(22);
+  }
 
-    h2 {
-        font-size: 3.5rem;
-    }
+  h2 {
+      .font-size(20);
+  }
 
-    h3 {
-        font-size: 3rem;
-    }
+  h3 {
+      .font-size(18);
+  }
+  
+  .blog-title {
+      .font-size(38);
+  }
+  
+  .blog-description {
+      .font-size(15);
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  
+  .blog-title {
+      .font-size(46);
+  }
 }
 
 // 600px
