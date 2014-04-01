@@ -39,7 +39,7 @@
     top: -14px;
     left: 50%;
     margin-left: -15px;
-    border: #EBF2F6 1px solid;
+    border: @lightgrey 1px solid;
     text-align: center;
     line-height: 2.4rem;
     border-radius: 50px;
@@ -56,7 +56,7 @@
     
     // The RSS icon, inserted via icon font
     &:before {
-        color: #D2DEE3;
+        color: @lightgrey;
         font-size: 10px;
         position: absolute;
         top: 9px;
@@ -66,11 +66,11 @@
     }
     // Add a box shadow to on hover
     &:hover {
-        box-shadow: rgba(0,0,0,0.05) 0 0 0 3px;
+        box-shadow: @basecolor 0 0 0 3px;
         transition: box-shadow 0.25s;
         
         &:before {
-            color: #50585D;
+            color: @lightgrey;
         }
     }
 }
@@ -82,15 +82,16 @@
     padding: 4px 8px 5px 8px;
     position:absolute;
     top: -23px;
-    left: -36px;
+    left: -31px;
     color: @white;
     .font-size(9);
     line-height: 1em;
     text-align: center;
     background: @grey;
-    border-radius:20px;
+    .rounded(20px);
     box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-    transition: opacity 0.3s ease, top 0.3s ease;
+    .transition(opacity, 0.3s, ease);
+    .transition(top, 0.3s, ease);
     
     // The little chiclet arrow under the tooltip, pointing down
     &:after {

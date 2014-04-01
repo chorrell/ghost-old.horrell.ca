@@ -268,13 +268,13 @@ body {
   color: #262626;
 }
 ::-moz-selection {
-  color: #222;
-  background: #D6EDFF;
+  color: #262626;
+  background: #e6e6e6;
   text-shadow: none;
 }
 ::selection {
-  color: #222;
-  background: #D6EDFF;
+  color: #262626;
+  background: #e6e6e6;
   text-shadow: none;
 }
 h1,
@@ -289,19 +289,22 @@ h6 {
   font-family: 'Orbitron', sans-serif;
 }
 h1 {
-  font-size: 19px;
-  font-size: 1.9rem;
+  font-size: 18px;
+  font-size: 1.8rem;
 }
 h2 {
-  font-size: 17px;
-  font-size: 1.7rem;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
-h3,
+h3 {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
 h4,
 h5,
 h6 {
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 12px;
+  font-size: 1.2rem;
 }
 a {
   text-decoration: none;
@@ -382,8 +385,9 @@ blockquote p {
 blockquote small {
   display: inline-block;
   margin: 0.8em 0 0.8em 1.5em;
-  font-size: 0.9em;
-  color: #ccc;
+  font-size: 15px;
+  font-size: 1.5rem;
+  color: #595959;
 }
 blockquote small:before {
   content: '\2014 \00A0';
@@ -401,8 +405,6 @@ code,
 tt {
   padding: 1px 3px;
   font-family: Inconsolata, monospace, sans-serif;
-  font-size: 12px;
-  font-size: 1.2rem;
   white-space: pre-wrap;
   border: 1px solid #e6e6e6;
   background: #f7f7f7;
@@ -414,8 +416,6 @@ pre {
   width: 100%;
   padding: 10px;
   font-family: Inconsolata, monospace, sans-serif;
-  font-size: 12px;
-  font-size: 1.2rem;
   white-space: nowrap;
   overflow: auto;
   background: #f7f7f7;
@@ -433,10 +433,11 @@ kbd {
   display: inline-block;
   margin-bottom: 0.4em;
   padding: 1px 8px;
-  border: #ccc 1px solid;
+  border: #595959 1px solid;
   color: #666;
   text-shadow: #ffffff 0 1px 0;
-  font-size: 0.9em;
+  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: bold;
   background: #f4f4f4;
   border-radius: 4px;
@@ -517,8 +518,8 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 .blog-title {
   margin: 10px 0 10px 0;
-  font-size: 28px;
-  font-size: 2.8rem;
+  font-size: 24px;
+  font-size: 2.4rem;
   letter-spacing: 1px;
   font-weight: bold;
   font-family: 'Orbitron', sans-serif;
@@ -529,9 +530,9 @@ table.plain tbody > tr:nth-child(odd) > th {
 .blog-description {
   margin: 0;
   color: #f7f7f7;
-  font-size: 12px;
-  font-size: 1.2rem;
-  font-weight: 300;
+  font-size: 9px;
+  font-size: 0.9rem;
+  font-weight: normal;
   font-family: 'Arvo', serif;
 }
 .post {
@@ -540,7 +541,7 @@ table.plain tbody > tr:nth-child(odd) > th {
   max-width: 700px;
   margin: 2rem auto;
   padding-bottom: 4rem;
-  border-bottom: #EBF2F6 1px solid;
+  border-bottom: #e6e6e6 1px solid;
   word-break: break-word;
   hyphens: auto;
 }
@@ -553,12 +554,10 @@ table.plain tbody > tr:nth-child(odd) > th {
 .post-meta {
   display: inline-block;
   margin: 0 0 5px 0;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.2rem;
-  color: #9EABB3;
+  color: #808080;
 }
 .post-meta a {
-  color: #9EABB3;
+  color: #595959;
   text-decoration: none;
 }
 .post-meta a:hover {
@@ -581,6 +580,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 .user-bio {
   display: block;
   max-width: 440px;
+  font-size: 14px;
   font-size: 1.4rem;
   line-height: 1.5em;
 }
@@ -597,6 +597,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 .publish-date {
   display: block;
+  font-size: 14px;
   font-size: 1.4rem;
   line-height: 1.5em;
 }
@@ -620,12 +621,8 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 .post-footer p {
   margin: 1rem 0;
-  font-size: 10px;
-  font-size: 1rem;
 }
 .post-footer .share a {
-  font-size: 14px;
-  font-size: 1.4rem;
   display: inline-block;
   margin: 1.4rem 1rem 1.6rem 0;
   color: #808080;
@@ -647,23 +644,24 @@ table.plain tbody > tr:nth-child(odd) > th {
   width: 80%;
   max-width: 700px;
   margin: 4rem auto;
-  font-size: 11px;
-  font-size: 1.1rem;
+  font-size: 8px;
+  font-size: 0.8rem;
   color: #cccccc;
   text-align: center;
 }
 .pagination a {
-  color: #cccccc;
+  color: #808080;
 }
 .older-posts,
 .newer-posts {
   position: static;
   display: inline-block;
-  padding: 0 15px;
-  margin: 10px 0;
+  padding: 4px 15px;
   border: #cccccc 2px solid;
   text-decoration: none;
-  border-radius: 30px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
   -webkit-transition: border 0.5s ease 0;
   -moz-transition: border 0.5s ease 0;
   -ms-transition: border 0.5s ease 0;
@@ -672,6 +670,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 .page-number {
   display: block;
+  margin: 10px 0;
 }
 .older-posts:hover,
 .newer-posts:hover {
@@ -711,7 +710,7 @@ table.plain tbody > tr:nth-child(odd) > th {
   top: -14px;
   left: 50%;
   margin-left: -15px;
-  border: #EBF2F6 1px solid;
+  border: #cccccc 1px solid;
   text-align: center;
   line-height: 2.4rem;
   border-radius: 50px;
@@ -727,7 +726,7 @@ table.plain tbody > tr:nth-child(odd) > th {
   top: -33px;
 }
 .subscribe:before {
-  color: #D2DEE3;
+  color: #cccccc;
   font-size: 10px;
   position: absolute;
   top: 9px;
@@ -736,11 +735,11 @@ table.plain tbody > tr:nth-child(odd) > th {
   transition: color 0.5s ease;
 }
 .subscribe:hover {
-  box-shadow: rgba(0, 0, 0, 0.05) 0 0 0 3px;
+  box-shadow: #cf2829 0 0 0 3px;
   transition: box-shadow 0.25s;
 }
 .subscribe:hover:before {
-  color: #50585D;
+  color: #cccccc;
 }
 .tooltip {
   opacity: 0;
@@ -748,16 +747,27 @@ table.plain tbody > tr:nth-child(odd) > th {
   padding: 4px 8px 5px 8px;
   position: absolute;
   top: -23px;
-  left: -36px;
+  left: -31px;
   color: #ffffff;
   font-size: 9px;
   font-size: 0.9rem;
   line-height: 1em;
   text-align: center;
   background: #808080;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   border-radius: 20px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  transition: opacity 0.3s ease, top 0.3s ease;
+  -webkit-transition: opacity 0.3s ease 0;
+  -moz-transition: opacity 0.3s ease 0;
+  -ms-transition: opacity 0.3s ease 0;
+  -o-transition: opacity 0.3s ease 0;
+  transition: opacity 0.3s ease 0;
+  -webkit-transition: top 0.3s ease 0;
+  -moz-transition: top 0.3s ease 0;
+  -ms-transition: top 0.3s ease 0;
+  -o-transition: top 0.3s ease 0;
+  transition: top 0.3s ease 0;
 }
 .tooltip:after {
   content: "";
@@ -783,7 +793,8 @@ table.plain tbody > tr:nth-child(odd) > th {
   }
   .page-number {
     display: inline-block;
-    padding: 2px 0;
+    margin: 0;
+    padding: 6px 0;
   }
   .newer-posts {
     left: 0;
@@ -798,11 +809,21 @@ table.plain tbody > tr:nth-child(odd) > th {
     width: 180px;
   }
 }
-@media only screen and (min-width: 45em) {
-  body {
+@media only screen and (min-width: 37.5em) {
+  .blog-title {
+    font-size: 26px;
+    font-size: 2.6rem;
+  }
+  .blog-description {
     font-size: 12px;
     font-size: 1.2rem;
   }
+  .pagination {
+    font-size: 10px;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 48em) {
   h1 {
     font-size: 22px;
     font-size: 2.2rem;
@@ -819,36 +840,28 @@ table.plain tbody > tr:nth-child(odd) > th {
     font-size: 30px;
     font-size: 3rem;
   }
-  .blog-description {
-    font-size: 14px;
-    font-size: 1.4rem;
-  }
 }
-@media only screen and (min-width: 65em) {
-  h1 {
-    font-size: 22px;
-    font-size: 2.2rem;
-  }
-  h2 {
-    font-size: 20px;
-    font-size: 2rem;
-  }
-  h3 {
-    font-size: 18px;
-    font-size: 1.8rem;
-  }
+@media only screen and (min-width: 62em) {
   .blog-title {
-    font-size: 38px;
-    font-size: 3.8rem;
+    font-size: 34px;
+    font-size: 3.4rem;
   }
   .blog-description {
-    font-size: 15px;
-    font-size: 1.5rem;
+    font-size: 16px;
+    font-size: 1.6rem;
   }
 }
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 86.375em) {
+  body {
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
   .blog-title {
-    font-size: 46px;
-    font-size: 4.6rem;
+    font-size: 40px;
+    font-size: 4rem;
+  }
+  .post {
+    width: 80%;
+    max-width: 900px;
   }
 }

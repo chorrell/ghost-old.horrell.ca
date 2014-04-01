@@ -18,7 +18,7 @@
 
 .blog-title {
     margin: 10px 0 10px 0;
-    .font-size(28);
+    .font-size(24);
     letter-spacing: 1px;
     font-weight: bold;
     font-family: @secondaryfont;
@@ -31,8 +31,8 @@
 .blog-description {
     margin: 0;
     color: @lightestgrey;
-    .font-size(12);
-    font-weight: 300;
+    .font-size(9);
+    font-weight: normal;
     font-family: @basefont;
 }
 
@@ -43,7 +43,7 @@
     max-width: 700px;
     margin: 2rem auto;
     padding-bottom: 4rem;
-    border-bottom: #EBF2F6 1px solid;
+    border-bottom: @lightergrey 1px solid;
     word-break: break-word;
     hyphens: auto;
 }
@@ -58,11 +58,9 @@
 .post-meta {
     display: inline-block;
     margin: 0 0 5px 0;
-    font-family: @secondaryfont;
-    font-size: 1.2rem;
-    color: #9EABB3;
+    color: @grey;
     a {
-        color: #9EABB3;
+        color: @darkgrey;
         text-decoration: none;
         
         &:hover {
@@ -91,7 +89,7 @@
 .user-bio {
     display: block;
     max-width: 440px;
-    font-size: 1.4rem;
+    .font-size(14); // 14px/1.4em
     line-height: 1.5em;
 }
 
@@ -110,6 +108,6 @@
 
 .publish-date {
     display: block;
-    font-size: 1.4rem;
+    .font-size(14); // 14px/1.4em
     line-height: 1.5em;
 }

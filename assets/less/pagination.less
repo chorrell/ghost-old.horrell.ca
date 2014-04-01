@@ -4,12 +4,11 @@
     width: 80%;
     max-width: 700px;
     margin: 4rem auto;
-    //font-family: @secondaryfont;
-    .font-size(11);
+    .font-size(8);
     color: @lightgrey;
     text-align: center;
     a {
-        color: @lightgrey;
+        color: @grey;
     }
 }
 
@@ -18,16 +17,16 @@
 .newer-posts {
     position: static;
     display: inline-block;
-    padding: 0 15px;
-    margin: 10px 0;
+    padding: 4px 15px;
     border: @lightgrey 2px solid;
     text-decoration: none;
-    border-radius: 30px;
+    .rounded(20px);
     .transition (border, 0.5s, ease);
 }
 
 .page-number {
     display: block;
+    margin: 10px 0;
 }
 
 .older-posts:hover,
