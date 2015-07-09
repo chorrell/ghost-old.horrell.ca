@@ -539,7 +539,6 @@ table.plain tbody > tr:nth-child(odd) > th {
   margin: 2rem auto;
   padding-bottom: 4rem;
   border-bottom: #e6e6e6 1px solid;
-  word-break: break-word;
   hyphens: auto;
 }
 .post-title {
