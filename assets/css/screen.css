@@ -177,9 +177,6 @@ td,
 th {
   padding: 0;
 }
-.clearfix {
-  *zoom: 1;
-}
 .clearfix:before,
 .clearfix:after {
   display: table;
