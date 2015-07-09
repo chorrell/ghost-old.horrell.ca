@@ -662,11 +662,11 @@ table.plain tbody > tr:nth-child(odd) > th {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  -webkit-transition: border 0.5s ease 0;
-  -moz-transition: border 0.5s ease 0;
-  -ms-transition: border 0.5s ease 0;
-  -o-transition: border 0.5s ease 0;
-  transition: border 0.5s ease 0;
+  -webkit-transition: border 0.5s ease 0s;
+  -moz-transition: border 0.5s ease 0s;
+  -ms-transition: border 0.5s ease 0s;
+  -o-transition: border 0.5s ease 0s;
+  transition: border 0.5s ease 0s;
 }
 .page-number {
   display: block;
@@ -715,11 +715,11 @@ table.plain tbody > tr:nth-child(odd) > th {
   line-height: 2.4rem;
   border-radius: 50px;
   background: #ffffff;
-  -webkit-transition: box-shadow 0.5s ease 0;
-  -moz-transition: box-shadow 0.5s ease 0;
-  -ms-transition: box-shadow 0.5s ease 0;
-  -o-transition: box-shadow 0.5s ease 0;
-  transition: box-shadow 0.5s ease 0;
+  -webkit-transition: box-shadow 0.5s ease 0s;
+  -moz-transition: box-shadow 0.5s ease 0s;
+  -ms-transition: box-shadow 0.5s ease 0s;
+  -o-transition: box-shadow 0.5s ease 0s;
+  transition: box-shadow 0.5s ease 0s;
 }
 .subscribe:hover .tooltip {
   opacity: 1;
@@ -758,16 +758,16 @@ table.plain tbody > tr:nth-child(odd) > th {
   -moz-border-radius: 20px;
   border-radius: 20px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  -webkit-transition: opacity 0.3s ease 0;
-  -moz-transition: opacity 0.3s ease 0;
-  -ms-transition: opacity 0.3s ease 0;
-  -o-transition: opacity 0.3s ease 0;
-  transition: opacity 0.3s ease 0;
-  -webkit-transition: top 0.3s ease 0;
-  -moz-transition: top 0.3s ease 0;
-  -ms-transition: top 0.3s ease 0;
-  -o-transition: top 0.3s ease 0;
-  transition: top 0.3s ease 0;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -moz-transition: opacity 0.3s ease 0s;
+  -ms-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+  -webkit-transition: top 0.3s ease 0s;
+  -moz-transition: top 0.3s ease 0s;
+  -ms-transition: top 0.3s ease 0s;
+  -o-transition: top 0.3s ease 0s;
+  transition: top 0.3s ease 0s;
 }
 .tooltip:after {
   content: "";
