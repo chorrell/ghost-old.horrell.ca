@@ -401,7 +401,7 @@ mark {
 code,
 tt {
   padding: 1px 3px;
-  font-family: monaco, Consolas, 'Lucida Console', monospace;
+  font-family: Monaco, Consolas, 'Lucida Console', monospace;
   white-space: pre-wrap;
   border: 1px solid #e6e6e6;
   background: #f7f7f7;
@@ -412,16 +412,16 @@ pre {
   border: 1px solid #e6e6e6;
   width: 100%;
   padding: 10px;
-  font-family: monaco, Consolas, 'Lucida Console', monospace;
+  font-family: Monaco, Consolas, 'Lucida Console', monospace;
   white-space: pre;
   overflow: auto;
   background: #f7f7f7;
   border-radius: 3px;
 }
 pre code,
-tt {
+pre tt {
   font-size: inherit;
-  white-space: pre;
+  white-space: pre-wrap;
   background: transparent;
   border: none;
   padding: 0;
