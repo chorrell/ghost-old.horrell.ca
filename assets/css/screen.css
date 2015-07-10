@@ -402,7 +402,7 @@ code,
 tt {
   padding: 1px 3px;
   font-family: monaco, Consolas, 'Lucida Console', monospace;
-  white-space: pre-wrap;
+  white-space: pre;
   border: 1px solid #e6e6e6;
   background: #f7f7f7;
   border-radius: 2px;
