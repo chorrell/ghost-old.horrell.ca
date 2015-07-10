@@ -421,7 +421,7 @@ pre {
 pre code,
 tt {
   font-size: inherit;
-  white-space: nowrap;
+  white-space: pre;
   background: transparent;
   border: none;
   padding: 0;
