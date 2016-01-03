@@ -675,7 +675,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 .poweredby .icon-ghost:before {
   font-size: 1rem;
-  margin-right: 0.2em;
+  margin-right: 0.25em;
 }
 .subscribe {
   width: 28px;
