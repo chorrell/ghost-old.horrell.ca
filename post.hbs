@@ -1,7 +1,9 @@
 {{!< default}}
 
+{{#post}}
+
 <article class="{{post_class}}">
-    {{#post}}
+    
     <header class="post-header">
         <h1 class="post-title"><a href="{{url}}" rel="bookmark">{{{title}}}</a></h1>
         <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}" pubdate>{{date format="DD MMM YYYY"}}</time> {{tags prefix="on "}}</span>
@@ -18,3 +20,5 @@
         </section>
     </footer>
 </article>
+
+{{/post}}
