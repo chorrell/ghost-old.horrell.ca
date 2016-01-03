@@ -193,10 +193,7 @@ th {
   font-style: normal;
 }
 .icon-ghost:before,
-.icon-feed:before,
-.icon-twitter:before,
-.icon-google-plus:before,
-.icon-facebook:before {
+.icon-feed:before {
   font-family: 'icons';
   speak: none;
   font-style: normal;
@@ -212,16 +209,6 @@ th {
 }
 .icon-feed:before {
   content: "\e001";
-}
-.icon-twitter:before {
-  content: "\e002";
-  font-size: 1.1em;
-}
-.icon-google-plus:before {
-  content: "\e003";
-}
-.icon-facebook:before {
-  content: "\e004";
 }
 @-webkit-viewport {
   width: device-width;
@@ -618,15 +605,6 @@ table.plain tbody > tr:nth-child(odd) > th {
 .post-footer p {
   margin: 1rem 0;
 }
-.post-footer .share a {
-  display: inline-block;
-  margin: 1.4rem 1rem 1.6rem 0;
-  color: #808080;
-  text-decoration: none;
-}
-.post-footer .share a:hover {
-  color: #cf2829;
-}
 .gist table {
   margin: 0;
   font-size: 1.4rem;
@@ -797,12 +775,6 @@ table.plain tbody > tr:nth-child(odd) > th {
   }
   .post-footer .author {
     margin-right: 220px;
-  }
-  .post-footer .share {
-    position: absolute;
-    top: 4rem;
-    right: -1rem;
-    width: 180px;
   }
 }
 @media only screen and (min-width: 37.5em) {
