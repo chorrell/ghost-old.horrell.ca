@@ -185,31 +185,6 @@ th {
 .clearfix:after {
   clear: both;
 }
-@font-face {
-  font-family: 'icons';
-  src: url('../fonts/icons.eot');
-  src: url('../fonts/icons.eot?#iefix') format('embedded-opentype'), url('../fonts/icons.woff') format('woff'), url('../fonts/icons.ttf') format('truetype'), url('../fonts/icons.svg#icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-.icon-ghost:before,
-.icon-feed:before {
-  font-family: 'icons';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  text-decoration: none;
-}
-.icon-ghost:before {
-  content: "\e000";
-}
-.icon-feed:before {
-  content: "\e001";
-}
 @-webkit-viewport {
   width: device-width;
   zoom: 1.0;
@@ -665,96 +640,6 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 .site-footer a:hover {
   color: #262626;
-}
-.poweredby .icon-ghost {
-  font-weight: 700;
-  text-decoration: none;
-}
-.poweredby .icon-ghost:hover {
-  text-decoration: none;
-}
-.poweredby .icon-ghost:before {
-  font-size: 1rem;
-  margin-right: 0.25em;
-}
-.subscribe {
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  top: -14px;
-  left: 50%;
-  margin-left: -15px;
-  border: #cccccc 1px solid;
-  text-align: center;
-  line-height: 2.4rem;
-  border-radius: 50px;
-  background: #ffffff;
-  -webkit-transition: box-shadow 0.5s ease 0s;
-  -moz-transition: box-shadow 0.5s ease 0s;
-  -ms-transition: box-shadow 0.5s ease 0s;
-  -o-transition: box-shadow 0.5s ease 0s;
-  transition: box-shadow 0.5s ease 0s;
-}
-.subscribe:hover .tooltip {
-  opacity: 1;
-  top: -33px;
-}
-.subscribe:before {
-  color: #cccccc;
-  font-size: 10px;
-  position: absolute;
-  top: 9px;
-  left: 9px;
-  font-weight: bold;
-  transition: color 0.5s ease;
-}
-.subscribe:hover {
-  box-shadow: #cf2829 0 0 0 3px;
-  transition: box-shadow 0.25s;
-}
-.subscribe:hover:before {
-  color: #cccccc;
-}
-.tooltip {
-  opacity: 0;
-  display: inline-block;
-  padding: 4px 8px 5px 8px;
-  position: absolute;
-  top: -23px;
-  left: -31px;
-  color: #ffffff;
-  font-size: 9px;
-  font-size: 0.9rem;
-  line-height: 1em;
-  text-align: center;
-  background: #808080;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  -webkit-transition: opacity 0.3s ease 0s;
-  -moz-transition: opacity 0.3s ease 0s;
-  -ms-transition: opacity 0.3s ease 0s;
-  -o-transition: opacity 0.3s ease 0s;
-  transition: opacity 0.3s ease 0s;
-  -webkit-transition: top 0.3s ease 0s;
-  -moz-transition: top 0.3s ease 0s;
-  -ms-transition: top 0.3s ease 0s;
-  -o-transition: top 0.3s ease 0s;
-  transition: top 0.3s ease 0s;
-}
-.tooltip:after {
-  content: "";
-  border-width: 5px 5px 0 5px;
-  border-style: solid;
-  border-color: #808080 transparent;
-  display: block;
-  position: absolute;
-  bottom: -4px;
-  left: 50%;
-  margin-left: -5px;
-  z-index: 220;
-  width: 0;
 }
 @media only screen and (min-width: 30em) {
   .older-posts,
