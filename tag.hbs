@@ -1,14 +1,9 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
-
-{{! The main content area on the homepage }}
 <main class="content" role="main">
-    {{#if tag.description}}
-        {{tag.description}}
-    {{else}}
-        A {{pagination.total}}-post collection
-    {{/if}}
-
+    <p>Tag: {{#tag}}{{name}}{{/tag}}</p>
+    <p>A {{pagination.total}}-post collection</p>
+    
     {{! The tag below includes the post loop - partials/loop.hbs }}
     {{> "loop"}}
 
