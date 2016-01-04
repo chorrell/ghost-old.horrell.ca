@@ -2,16 +2,18 @@
 <html>
 <head>
      {{> head}}
+     {{ghost_head}}
 </head>
 <body class="{{body_class}}">
-<!--[if lt IE 8]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-{{> header}}
+
+<header class="site-head">
+    <h1 class="blog-title"><a href="/">{{@blog.title}}</a></h1>
+    <h2 class="blog-description">{{@blog.description}}</h2>
+</header>
 
 <main role="main" class="content">
     <article class="post">
-	<section class="error-content error-404 js-error-container">
+	<section class="error-content error-404">
 		<section class="error-details">
 			<section class="error-message">
 				<h1 class="error-code">{{code}}</h1>
@@ -37,6 +39,10 @@
     </article>
 </main>
 
-{{> footer}}
+<footer class="site-footer">
+    <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{@blog.title}}</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.</section>
+</footer>
+
+{{ghost_foot}}
 </body>
 </html>
