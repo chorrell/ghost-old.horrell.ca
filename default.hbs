@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
-    {{> head}}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="{{asset "/favicon.ico"}}" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{{asset "/apple-touch-icon-76x76.png"}}" />
+    <link rel="apple-touch-icon" sizes="120x120" href="{{asset "/apple-touch-icon-120x120.png"}}" />
+    <link rel="apple-touch-icon" sizes="152x152" href="{{asset "/apple-touch-icon-152x152.png"}}" />
+
+    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    
     {{ghost_head}}
 </head>
 <body class="{{body_class}}">
