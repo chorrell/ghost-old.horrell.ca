@@ -6,7 +6,6 @@
     
     <header class="post-header">
         <h1 class="post-title"><a href="{{url}}" rel="bookmark">{{{title}}}</a></h1>
-        <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}" pubdate>{{date format="DD MMM YYYY"}}</time> {{tags prefix="on "}}</span>
     </header>
 
     <section class="post-content">
@@ -14,10 +13,7 @@
     </section>
 
     <footer class="post-footer">
-        <section class="author">
-            <h1>{{author.name}}</h1>
-            <p>{{author.bio}}</p>
-        </section>
+        <section class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}" pubdate>{{date format="MMM D, YYYY"}}</time> {{tags prefix="on "}}</section>
     </footer>
 </article>
 
