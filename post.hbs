@@ -19,10 +19,9 @@
     </article>
 </main>
 
-<aside class="read-next">
-    
-    <p class="next">{{#next_post}}<a href="{{url}}">&#9666;  {{title}}</a>{{/next_post}}</p>
-    <p class="prev">{{#prev_post}}<a href="{{url}}">{{title}} &#9656;</a> {{/prev_post}}</p>
+<aside class="next-prev">
+    <p class="prev">{{#prev_post}}Previously: <a href="{{url}}">{{title}} &#9656;</a> {{/prev_post}}</p>
+    <p class="next">{{#next_post}}Read next: <a href="{{url}}">  {{title}}</a>{{/next_post}}</p>
 </aside>
 
 {{/post}}
