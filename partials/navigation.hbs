@@ -3,6 +3,7 @@
         {{#foreach navigation}}
             <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation"><a href="{{url absolute="false"}}">{{label}}</a></li>
         {{/foreach}}
+        <li> <a href="{{@blog.url}}/rss/" class="rss-link">&rarrhk; Subscribe</a></li>
     </ul>
-    <a href="{{@blog.url}}/rss/">&rarrhk; Subscribe</a>
+   
 </nav>
