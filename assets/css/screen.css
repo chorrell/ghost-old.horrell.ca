@@ -526,7 +526,7 @@ table.plain tbody > tr:nth-child(odd) > th {
   width: 80%;
   max-width: 700px;
   margin: 2rem auto;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   border-bottom: #e6e6e6 1px solid;
   hyphens: auto;
 }
@@ -599,9 +599,6 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 .post-footer {
   position: relative;
-  margin: 4rem 0;
-  padding: 4rem 0;
-  border-top: #e6e6e6 1px solid;
 }
 .post-footer h1 {
   font-size: 12px;
