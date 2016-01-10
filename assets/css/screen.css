@@ -497,7 +497,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 .site-nav {
   width: 80%;
   max-width: 700px;
-  margin: 2rem auto;
+  margin: 1rem auto;
 }
 .site-nav ul {
   list-style-type: none;
