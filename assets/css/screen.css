@@ -494,6 +494,16 @@ table.plain tbody > tr:nth-child(odd) > th {
   font-weight: normal;
   font-family: Verdana, Geneva, sans-serif;
 }
+.site-nav {
+  width: 80%;
+  max-width: 700px;
+  margin: 2rem auto;
+}
+.tag-nav {
+  width: 80%;
+  max-width: 700px;
+  margin: 2rem auto;
+}
 .post {
   position: relative;
   width: 80%;

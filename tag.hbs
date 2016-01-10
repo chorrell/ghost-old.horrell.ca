@@ -1,8 +1,11 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+<nav class="tag-nav">
+    <h1>Tag: {{#tag}}<a href="{{url}}">{{name}}</a>{{/tag}}</h1>
+    <p>A {{pagination.total}}-post collection.</p>
+</nav>
+
 <main class="content" role="main">
-    <p>Tag: {{#tag}}{{name}}{{/tag}}</p>
-    <p>A {{pagination.total}}-post collection</p>
     
     {{! The tag below includes the post loop - partials/loop.hbs }}
     {{> "loop"}}
