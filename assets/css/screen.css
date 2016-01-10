@@ -248,22 +248,22 @@ h6 {
   font-family: Verdana, Geneva, sans-serif;
 }
 h1 {
-  font-size: 18px;
-  font-size: 1.8rem;
-}
-h2 {
   font-size: 16px;
   font-size: 1.6rem;
 }
-h3 {
+h2 {
   font-size: 14px;
   font-size: 1.4rem;
+}
+h3 {
+  font-size: 12px;
+  font-size: 1.2rem;
 }
 h4,
 h5,
 h6 {
-  font-size: 12px;
-  font-size: 1.2rem;
+  font-size: 10px;
+  font-size: 1rem;
 }
 a {
   text-decoration: none;
@@ -498,6 +498,23 @@ table.plain tbody > tr:nth-child(odd) > th {
   width: 80%;
   max-width: 700px;
   margin: 2rem auto;
+}
+.site-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.site-nav ul li {
+  display: inline-block;
+}
+.site-nav ul li a {
+  display: block;
+  padding: 0.5em 0.25em;
+}
+.site-nav .nav-current {
+  text-decoration: underline;
 }
 .tag-nav {
   width: 80%;
