@@ -37,7 +37,7 @@
 }
 
 .site-nav {
-    width:80%;
+    width: 80%;
     max-width: 700px;
     margin: 0 auto 1rem auto;
     .font-size(12);
@@ -52,17 +52,20 @@
                 display: inline-block;
                 a {
                     display: block;
-                    padding: 0.5em 0.25em;
+                    padding: 1em 0.5em;
                 }
             }
     }
     .nav-current {
-        text-decoration: underline;
+        a {
+            text-decoration: underline;
+        }
+      
     }
 }
 
 .tag-nav {
-    width:80%;
+    width: 80%;
     max-width: 700px;
     margin: 2rem auto;
     border-bottom: 1px solid @lightergrey;
@@ -71,7 +74,7 @@
 // Every post, on every page, gets this style on its <article> tag
 .post {
     position: relative;
-    width:80%;
+    width: 80%;
     max-width: 700px;
     margin: 2rem auto;
     padding-bottom: 2rem;
