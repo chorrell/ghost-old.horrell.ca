@@ -514,9 +514,9 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 .site-nav ul li a {
   display: block;
-  padding: 0.5em 0.25em;
+  padding: 1em 0.5em;
 }
-.site-nav .nav-current {
+.site-nav .nav-current a {
   text-decoration: underline;
 }
 .tag-nav {
@@ -709,6 +709,10 @@ table.plain tbody > tr:nth-child(odd) > th {
   .blog-title {
     font-size: 40px;
     font-size: 4rem;
+  }
+  .blog-description {
+    font-size: 17px;
+    font-size: 1.7rem;
   }
   .post {
     width: 80%;
