@@ -597,18 +597,6 @@ table.plain tbody > tr:nth-child(odd) > th {
   margin: 0 auto;
   height: auto;
 }
-.post-footer {
-  position: relative;
-}
-.post-footer h1 {
-  font-size: 12px;
-  font-size: 1.2rem;
-  letter-spacing: 0;
-  margin: 0;
-}
-.post-footer p {
-  margin: 1rem 0;
-}
 .gist table {
   margin: 0;
   font-size: 1.4rem;
@@ -678,9 +666,6 @@ table.plain tbody > tr:nth-child(odd) > th {
   .newer-posts {
     left: 0;
   }
-  .post-footer .author {
-    margin-right: 220px;
-  }
 }
 @media only screen and (min-width: 37.5em) {
   .blog-title {
@@ -697,6 +682,20 @@ table.plain tbody > tr:nth-child(odd) > th {
   }
 }
 @media only screen and (min-width: 48em) {
+  .blog-title {
+    font-size: 30px;
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 62em) {
+  .blog-title {
+    font-size: 36px;
+    font-size: 3.6rem;
+  }
+  .blog-description {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
   h1 {
     font-size: 22px;
     font-size: 2.2rem;
@@ -708,20 +707,6 @@ table.plain tbody > tr:nth-child(odd) > th {
   h3 {
     font-size: 18px;
     font-size: 1.8rem;
-  }
-  .blog-title {
-    font-size: 30px;
-    font-size: 3rem;
-  }
-}
-@media only screen and (min-width: 62em) {
-  .blog-title {
-    font-size: 34px;
-    font-size: 3.4rem;
-  }
-  .blog-description {
-    font-size: 16px;
-    font-size: 1.6rem;
   }
 }
 @media only screen and (min-width: 86.375em) {
