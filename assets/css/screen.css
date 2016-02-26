@@ -676,7 +676,8 @@ table.plain tbody > tr:nth-child(odd) > th {
     font-size: 17px;
     font-size: 1.7rem;
   }
-  .post {
+  .post,
+  .site-nav {
     width: 80%;
     max-width: 900px;
   }
