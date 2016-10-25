@@ -23,23 +23,7 @@
 
     {{!-- Styles'n'Scripts --}}
     <style amp-custom>
-        /* ==========================================================================
-           Table of Contents
-           ========================================================================== */
-
-        /*
-
-            0. Normalize
-            1. General
-            2. Utilities
-            3. AMP Post
-            4. Footer
-
-        */
-
-        /* ==========================================================================
-           0. normalize.css v3.0.3 | MIT License | git.io/normalize | (minified)
-           ========================================================================== */
+        /* normalize.css v3.0.3 | MIT License | git.io/normalize | (minified) */
 
         html {
             font-family: sans-serif;
@@ -167,7 +151,6 @@
         input[type="reset"],
         input[type="submit"] {
             cursor: pointer;
-
             -webkit-appearance: button;
         }
         button[disabled],
@@ -222,16 +205,10 @@
             padding: 0;
         }
 
-
-        /* ==========================================================================
-           1. General - Setting up some base styles
-           ========================================================================== */
-
         html {
             max-height: 100%;
             height: 100%;
             font-size: 62.5%;
-
             -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         }
 
@@ -245,7 +222,6 @@
             font-size: 1.8rem;
             line-height: 1.75em;
             text-rendering: geometricPrecision;
-
             -webkit-font-feature-settings: "kern" 1;
             -moz-font-feature-settings: "kern" 1;
             -o-font-feature-settings: "kern" 1;
@@ -269,7 +245,6 @@
             color: #2e2e2e;
             line-height: 1.15em;
             text-rendering: geometricPrecision;
-
             -webkit-font-feature-settings: "dlig" 1, "liga" 1, "lnum" 1, "kern" 1;
             -moz-font-feature-settings: "dlig" 1, "liga" 1, "lnum" 1, "kern" 1;
             -o-font-feature-settings: "dlig" 1, "liga" 1, "lnum" 1, "kern" 1;
@@ -318,7 +293,6 @@
             margin: 0 0 2.5rem 0;
             font-size: 1.5rem;
             text-rendering: geometricPrecision;
-
             -webkit-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
             -moz-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
             -o-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
@@ -376,7 +350,6 @@
             margin: 1.75em 0 1.75em 0;
             padding: 0 0 0 1.75em;
             border-left: #4a4a4a 0.4em solid;
-
             -moz-box-sizing: border-box;
         }
 
@@ -415,10 +388,9 @@
             background: #f7fafb;
             border-radius: 2px;
             white-space: pre-wrap;
-            font-family: Inconsolata, monospace, sans-serif;
+            font-family: Monaco, Consolas, 'Lucida Console', monospace;
             font-size: 0.85em;
             font-feature-settings: "liga" 0;
-
             -webkit-font-feature-settings: "liga" 0;
             -moz-font-feature-settings: "liga" 0;
         }
@@ -433,9 +405,8 @@
             background: #f7fafb;
             border-radius: 3px;
             white-space: pre;
-            font-family: Inconsolata, monospace, sans-serif;
+            font-family: Monaco, Consolas, 'Lucida Console', monospace;
             font-size: 0.9em;
-
             -moz-box-sizing: border-box;
         }
 
@@ -469,7 +440,6 @@
             max-width: 100%;
             width: 100%;
             background-color: transparent;
-
             -moz-box-sizing: border-box;
         }
 
@@ -520,13 +490,6 @@
             margin: 1.75em 0;
         }
 
-        /* When a video is inside the fitvids wrapper, drop the
-        margin on the iframe, cause it breaks stuff. */
-        .fluid-width-video-wrapper iframe,
-        .fluid-width-video-wrapper amp-iframe {
-            margin: 0;
-        }
-
         textarea,
         select,
         input {
@@ -541,7 +504,6 @@
             font-size: 1.6rem;
             line-height: 1.4em;
             font-weight: 100;
-
             -webkit-appearance: none;
         }
 
@@ -579,11 +541,6 @@
             line-height: 30px;
         }
 
-        /* ==========================================================================
-           2. Utilities
-           ========================================================================== */
-
-        /* Clears shit */
         .clearfix:before,
         .clearfix:after {
             content: " ";
@@ -596,10 +553,6 @@
             zoom: 1;
         }
 
-        /* ==========================================================================
-           3. AMP Post
-           ========================================================================== */
-
         .main-header {
             position: relative;
             display: table;
@@ -610,7 +563,6 @@
             background: #CF2829 no-repeat center center;
             background-size: cover;
             text-align: left;
-
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
         }
@@ -700,26 +652,18 @@
             border-top: 1px #E8E8E8 solid;
         }
 
-        /* Keep images centered, and allow images wider than the main
-           text column to break out. */
         .post-content amp-img,
         .post-content amp-anim {
-            /* Centers an image by (1) pushing its left edge to the
-               center of its container and (2) shifting the entire image
-               in the opposite direction by half its own width.
-               Works for images that are larger than their containers. */
             position: relative;
             left: 50%;
             display: block;
             padding: 0;
             min-width: 0;
-            max-width: 112%; /* fallback when calc doesn't work */
-            width: calc(100% + 32px); /* expand with to image + margins */
+            max-width: 112%;
+            width: calc(100% + 32px);
             height: auto;
             transform: translateX(-50%);
-
-            -webkit-transform: translateX(-50%); /* for Safari and iOS */
-            -ms-transform: translateX(-50%); /* for IE9 */
+            -webkit-transform: translateX(-50%);
         }
 
         .footnotes {
@@ -739,10 +683,6 @@
         .footnotes p a:last-child {
             text-decoration: none;
         }
-
-        /* ==========================================================================
-           4. Footer - The bottom the AMP Post
-           ========================================================================== */
 
         .site-footer {
             position: relative;
